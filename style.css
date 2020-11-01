@@ -178,14 +178,15 @@ body {
 }
 
 .user-image {
-  position: absolute;
-  margin: 0;
+    position: absolute;
+    margin: 0;
 }
 
 .user-image img {
-  width: 640px;
-  height: 640px;
-  object-fit: cover;
+    border-radius: 4%;
+    width: 640px;
+    height: 640px;
+    object-fit: cover;
 }
 
 .intro .container div {
@@ -292,7 +293,7 @@ body {
 }
 
 .button {
-  margin: 0;
+  margin-bottom: 30px;
   padding: 8px 24px;
   display: inline-block;
   vertical-align: baseline;
